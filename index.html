@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXTRACURRICULAR ACTIVITIES JOINING FORMS</title>
+    <!-- FAV ICON -->
+    <link rel="icon" type="image/x-icon" href="./image/logo.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- JAVA SCRIPT -->
+    <script src="./scripts.js"></script>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <img src="./image/logo.png" alt="" id="school_logo">
+    <div class="register_form_bg">
+        <div class="circle-container-1">
+        </div>
+        <div class="circle-container-2">
+        </div>
+        <div class="circle-container-3">
+        </div>
+        <div class="flip-card-3D-wrapper">
+            <div id="flip-card">
+                <div class="flip-card-front">
+        <div class="register_form_container">
+            <h1>Register Form</h1>
+            <form action="/action_page.php">
+                <div class="ddd">
+                
+                <input class="name-icon" type="text" id="register_form_name"   placeholder="Student Name" required>
+                <input type="date" class="dob-icon" id="birthday">
+                </div>
+                <div class="ddd">
+                <select class="gender-icon" id="register_form_gender" required>
+                    <option value="Empty" selected>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <select class="class-icon" name="" id="register_form_class" required>
+                    <option value="Empty" selected>Class</option>
+                    <option value="1st Standard">1st Standard</option>
+                    <option value="2nd Standard">2nd Standard</option>
+                    <option value="3rd Standard">3rd Standard</option>
+                    <option value="4rd Standard">4rd Standard</option>
+                    <option value="5th Standard">5th Standard</option>
+                </select>
+                </div>
+                <div class="ddd">
+                <input class="number-icon" type="tel" id="phone" placeholder="Contact" pattern="[0-9]{10}" required>
+                <select class="section-icon" id="register_form_section" required>
+                    <option value="Empty" selected>Section</option>
+                    <option value="A Section">A Section</option>
+                    <option value="B Section">B Section</option>
+                    <option value="C Section">C Section</option>
+                    <option value="D Section">D Section</option>
+                </select>
+                </div>
+                <div class="ddg">
+                <div class="ddb">
+                <div class="gap">
+                <input type="checkbox" id="Abacus" name="" value="Abacus Class"> <label for="Abacus">&nbsp;Abacus Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Drawing" name="" value="Drawing Class"> <label for="Drawing">&nbsp;Drawing Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Dance" name="" value="Dance Class"> <label for="Dance">&nbsp;Dance Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Computer" name="" value="Computer Class"> <label for="Computer">&nbsp;Computer Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Music" name="" value="Music Class"><label for="Music">&nbsp;Music Class</label></div>
+                </div>
+                <div class="ddb">
+                <div class="gap">
+                <input type="checkbox" id="Yoga" name="" value="Yoga Class"> <label for="Yoga">&nbsp;Yoga Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Hindi" name="" value="Hindi Class"> <label for="Hindi">&nbsp;Hindi Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Spoken_English" name="" value="Spoken English Class"> <label for="Spoken_English">&nbsp;Spoken English Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Swimming" name="" value="Swimming Class"> <label for="Swimming">&nbsp;Swimming Class</label></div>
+                <div class="gap">
+                <input type="checkbox" id="Science" name="" value="Science Class"> <label for="Science">&nbsp;Science Class</label></div>
+                </div>
+            </div>
+                <div class="btns">
+                
+                    <input type="submit" id="submit-btn" onclick="myFunction()" name="" value="submit"> 
+                
+                </div>
+            </form>
+
+        </div>
+        <button id="flip-card-btn-turn-to-back"><i class="fa fa-info-circle" aria-hidden="true" style="font-size: 40px;padding-right:4px; color:#2C0572;"></i><br>Details</button><br>
+    </div>
+	<div class="flip-card-back">
+        <div class="school-details-container" >
+            
+            <div class="details-container">
+                  <p>School Details / Other Informations</p>
+            </div>
+        </div><button id="flip-card-btn-turn-to-front"><span id="closeScreenButton" >&times;</span></button></div>
+</div>
+</div>
+    </div>
+    
+  
+    
+    
+    
+</body>
+</html>
